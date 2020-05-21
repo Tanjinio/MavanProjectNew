@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href="C:\Users\User\RahulClass\aroraerror.png">Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href="C:\Users\User\RahulClass\aroraerror.png">Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite name="DataDrivenSuite" duration-ms="15571" started-at="2020-05-09T20:08:17Z" finished-at="2020-05-09T20:08:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5152" started-at="2020-05-09T20:08:17Z" finished-at="2020-05-09T20:08:23Z">
+      <class name="testcases.LogInTest">
+        <test-method status="FAIL" signature="loginAsBankManager()[pri:0, instance:testcases.LogInTest@7e7be63f]" name="loginAsBankManager" duration-ms="5125" started-at="2020-05-09T16:08:17Z" finished-at="2020-05-09T16:08:23Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[it is failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: it is failed
+	at org.testng.Assert.fail(Assert.java:94)
+	at testcases.LogInTest.loginAsBankManager(LogInTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\User\RahulClass\aroraerror.png">Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href="C:\Users\User\RahulClass\aroraerror.png">Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- testcases.LogInTest -->
+    </test> <!-- Test -->
+    <test name="AddTest" duration-ms="10397" started-at="2020-05-09T20:08:23Z" finished-at="2020-05-09T20:08:33Z">
+      <class name="testcases.AddCustomerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@e15b7e8]" name="setUp" is-config="true" duration-ms="13188" started-at="2020-05-09T16:08:04Z" finished-at="2020-05-09T16:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@e15b7e8]" name="AddCustomer" duration-ms="10381" started-at="2020-05-09T16:08:23Z" data-provider="getData" finished-at="2020-05-09T16:08:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aw12342]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@e15b7e8]" name="tearDown" is-config="true" duration-ms="88" started-at="2020-05-09T16:08:33Z" finished-at="2020-05-09T16:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- AddTest -->
+  </suite> <!-- DataDrivenSuite -->
+</testng-results>
